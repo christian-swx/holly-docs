@@ -1,31 +1,44 @@
-# Another Page
+# Datenschutzerklärung
+Stand: 19. April 2026
 
-```js filename="demo.js" {3} copy
-let a = 1;
+## 1. Verantwortlicher
+Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO):
+Christian Schwaar, Goldschmidtstr. 23, 04103 Leipzig, Deutschland
+E-Mail: work@christian-schwaar.com
+Datenschutzkontakt / DSB: Christian Schwaar Datenschutz-Kontakt / DSB
 
-console.log(a);
-```
+## 2. Welche Daten wir verarbeiten
+Bei der Nutzung von Holly verarbeiten wir insbesondere Kontodaten (z. B. E-Mail, User-ID), Nutzungs- und Gerätedaten (z. B. App-Version, Diagnosedaten), Inhalts-Metadaten (z. B. Journaleinträge, sofern Cloud-Sync aktiv ist) sowie Abrechnungs-/Entitlement-Informationen aus dem App-Store-Umfeld.
+Die konkreten Datentypen hängen davon ab, welche Funktionen du aktiv nutzt (z. B. Benachrichtigungen, Abo-Funktionen, Analyse/Crash-Reporting). Journaling-Inhalte werden clientseitig verschlüsselt gespeichert und übertragen.
+Für Produktanalyse erfassen wir Nutzungsereignisse in pseudonymer Form (z. B. Feature-Aufrufe, Onboarding-Status). Inhalte deiner Journaling-Texte werden dabei nicht als Analytics-Event übertragen.
 
-## Component
+## 3. Zwecke und Rechtsgrundlagen
+Wir verarbeiten Daten zur Bereitstellung der App, zur Authentifizierung, zur Vertragserfüllung, zur Sicherstellung der Stabilität/Sicherheit und zur Abwicklung von Abonnements.
+Rechtsgrundlagen sind insbesondere Art. 6 Abs. 1 lit. b DSGVO (Vertrag), Art. 6 Abs. 1 lit. c DSGVO (gesetzliche Pflichten), Art. 6 Abs. 1 lit. f DSGVO (berechtigte Interessen, z. B. IT-Sicherheit) und, soweit erforderlich, Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
+Soweit für Endgerätezugriffe oder vergleichbare Technologien eine Einwilligung erforderlich ist, erfolgt dies nach § 25 TDDDG. Einwilligungen können jederzeit mit Wirkung für die Zukunft widerrufen werden.
 
-import { useState } from 'react'
+## 4. Empfänger und Auftragsverarbeiter
+Wir setzen technische Dienstleister ein (z. B. Hosting, Datenbank, Authentifizierung, Zahlungs-/Abo-Infrastruktur, Analyse/Fehlertracking), die Daten in unserem Auftrag verarbeiten.
+Für Produktanalysen nutzen wir PostHog als Auftragsverarbeiter.
+Mit diesen Dienstleistern schließen wir Auftragsverarbeitungsverträge nach Art. 28 DSGVO, sofern erforderlich.
 
-{/* Import CSS modules */}
-import styles from '../components/counters.module.css'
+## 5. Drittlandübermittlungen
+Soweit Daten in Staaten außerhalb der EU/des EWR übermittelt werden, erfolgt dies nur auf Basis geeigneter Garantien (z. B. Angemessenheitsbeschluss oder Standardvertragsklauseln).
+Du kannst Informationen zu den eingesetzten Garantien unter work@christian-schwaar.com anfordern.
 
-export const Counter = () => {
-  const [count, setCount] = useState(0);
-  return (
-    <div>
-      <button onClick={() => setCount(count + 1)} className={styles.counter}>Clicked {count} times</button>
-    </div>
-  );
-};
+## 6. Speicherdauer
+Wir speichern personenbezogene Daten nur so lange, wie dies für die genannten Zwecke erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen.
+Nach Zweckwegfall bzw. Ablauf von Aufbewahrungsfristen werden Daten gelöscht oder anonymisiert.
 
-<Counter/>
+## 7. Deine Rechte
+Du hast nach Maßgabe der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung (Art. 18), Datenübertragbarkeit (Art. 20) sowie Widerspruch (Art. 21).
+Wenn eine Verarbeitung auf Einwilligung beruht, kannst du diese jederzeit für die Zukunft widerrufen (Art. 7 Abs. 3 DSGVO).
+Außerdem hast du ein Beschwerderecht bei einer Datenschutzaufsichtsbehörde (Art. 77 DSGVO).
 
-## External Component
+## 8. Sicherheit
+Wir treffen angemessene technische und organisatorische Maßnahmen, um deine Daten gegen Verlust, Manipulation und unberechtigten Zugriff zu schützen.
+Trotzdem kann keine digitale Übertragung oder Speicherung vollständig risikofrei garantiert werden.
 
-import Counters from '../components/counters'
-
-<Counters />
+## 9. Änderungen dieser Datenschutzerklärung
+Wir können diese Datenschutzerklärung anpassen, wenn dies aus rechtlichen, technischen oder geschäftlichen Gründen erforderlich ist.
+Die jeweils aktuelle Fassung ist in der App abrufbar.
